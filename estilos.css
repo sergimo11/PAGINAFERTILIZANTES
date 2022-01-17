@@ -1,0 +1,414 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*ENCABEZADO*/
+header{
+    display: flex;
+    background:linear-gradient(rgb(255, 255, 255,0.9),rgb(255, 255, 255,0.9));
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    padding: auto;
+}
+
+.logo-encabezado{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 80%;
+margin: auto;
+}
+
+
+.texto-logo-encabezado{
+
+}
+.logo-encabezado i{
+    font-size: 40px;
+    color:greenyellow;
+}
+.abajo {
+    display: flex;
+    margin-right: 300px;
+
+}
+.abajo p{
+  
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.linkeame{
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+}
+.linkeame:hover{
+   color:green;
+   border-bottom: 1px solid lightgreen;
+   padding: 10px;
+   transition: .4s;
+}
+/*BANNER*/
+
+.banner{
+    background-image: url(imangenes/tierra.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.contenido-texto-banner{
+  border:1px double lightgreen;
+  width: 100%;
+  height: 60vh;
+  margin:auto;
+}
+.texto-banner{
+margin-top: 150px;
+text-align: center;
+color: lightgreen;
+font-size: 50px;
+font-weight: bold;
+text-shadow: 3px 3px 3px black ;
+}
+.texto-banner p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black ;
+  
+    }
+
+/*SOBRE NOSOTROS*/
+.nosotros{
+    width: 100%;
+}
+.contenedor-nosotros{
+    display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+margin: 90px auto;
+
+}
+.texto-nosotros{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-right: 300px;
+    align-items: center;
+    padding: 20px;
+  
+}
+.texto-nosotros-orginal{
+
+}
+ .titulo-nosotros{
+ color: lightgreen;
+ font-size: 60px;
+ text-align: justify;
+}
+.texto-green{
+    color:limegreen;
+    font-weight: bold;
+}
+.nosotros{
+
+}
+
+.boton-n{
+    margin-top: 20px;
+    border: 1px solid lightgreen;
+  width: 40%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boton-nosotros{
+    text-decoration: none;
+    color: black;
+    padding: 9px;
+    text-align: center;
+}
+
+.boton-n:hover{
+    background-color: lightgreen;
+    transition: .4s;
+}
+.boton-nosotros:hover{
+    color: white;
+}
+
+.img-nosotros{
+    margin-left:150px;
+    width: 8%;
+    display: flex;
+    border: 10px double green;
+}
+
+/*PRODUCTOS*/
+
+.productos{
+    height: 300px;
+    width: 100%;
+   border:1px solid lightgreen;
+   margin-top: 400px;
+   background:linear-gradient(180deg,#fff 50%,rgb(232, 235, 229) 50%);
+}
+
+.imagen_1{
+
+    margin: 10px;
+    border: 1px solid lightgreen;
+    padding: 80px;
+    margin-top: -200px;
+    
+}
+
+
+.contenido-productos{
+    display: flex;
+    justify-content:center;
+  
+    width: 80%;
+    margin: auto;
+}
+
+.contenedor-imagen1{
+    text-align: center;
+}
+
+.tiulo-productos{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imagen_1:hover{
+background-color: rgb(199, 238, 199);
+transition: .4s;
+opacity:1;
+transform: rotate(360deg);
+}
+
+
+.productosa{
+    text-decoration: none;
+    color: black;
+    border:1px solid lightgreen;
+    padding:10px;
+}
+.abajo-mosotrosa{
+    margin-top: 20px;
+}
+
+.productosa:hover{
+    background-color: lightgreen;
+}
+/*SERVICIOS*/
+
+
+.servicios{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.servicios h2{
+    text-align: center;
+    color: lightgreen;
+    font-size: 50px;
+}
+/*.info-servicios{
+    margin-top:200px;
+}*/
+
+.recuadro-servicios{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-top: 30px;
+}
+.img-servicios2{
+    margin-right: 300px;
+}
+
+
+.texto-servicios{
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 15px;
+  
+}
+
+.texto-servicios2{
+   margin-left: 20px;
+   text-align: justify;
+   font-size: 15px;
+}
+
+.texto-servicios3{
+    margin-left: 300px;
+    text-align: justify;
+    margin-right: 50px;
+    font-size: 15px;
+ }
+
+ .recuadro-servicios h3{
+     color: lightgreen;
+     font-weight: bold;
+     padding: 10px;
+     font-size:28px;
+ }
+
+
+ /*CATALOGO CULTIVOS*/
+
+ .cultivos{
+     margin-top: 200px;
+     text-align: center;
+ }
+.cultivos h2{
+    color: lightgreen;
+    font-size: 50px;
+    
+}
+.contenedor-cultivos{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+ }
+ .contenido-foto{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin-top:50px ;
+
+ }
+
+ .foto-cultivo{
+margin: 10px;
+background:lightgreen;
+ }
+
+
+
+ /*CONTACTANOS*/
+
+ .contactanos{
+     margin-top: 200PX;
+     background-color: rgb(228, 228, 228);
+     height: 68vh;
+ }
+
+
+ .caja-contactanos{
+    display: flex;
+    justify-content: center;
+   
+   
+    margin: auto;
+ }
+.contenido-contactos{
+width: 50%;
+  
+}
+
+.contactos-formulario{
+border: 1px solid green;
+border-radius: 4%;
+background:lightgreen;
+box-shadow: 3px 3px 1px lightgreen;
+padding: 10px;
+
+}
+
+.imput1 input{
+display: block;
+width: 100%;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid lightgreen;
+    padding: 10px;
+    border-radius: 10px;
+    background:linear-gradient(rgba(228, 255, 206, 0.9),rgb(228, 256, 206,0.9));
+}
+
+
+.imputui input{
+    width: 38%;
+    margin: 10px;
+    border: 1px solid lightgreen;
+    background:linear-gradient(rgba(228, 255, 206, 0.9),rgb(228, 256, 206,0.9));
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.imput2 label{
+    display: block;
+}
+
+.imput2 input{
+    width: 100%;
+    margin: 10px;
+    border: 1px solid lightgreen;
+    background:linear-gradient(rgba(228, 255, 206, 0.9),rgb(228, 256, 206,0.9));
+    padding: 10px;
+    border-radius: 10px;
+}
+.enviar-formulario{
+
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    
+}
+.enviar-formulario:hover{
+color:whitesmoke;
+}
+.boton-formulario{
+    border: 1px solid lightgreen;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+ opacity: 0.8;
+}
+
+.boton-formulario:hover{
+background-color: lightgreen;
+opacity: 1;
+transition: .4s;
+}
+
+.titulo-contactanos{
+    color: lightgreen;
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+/*FOOTER*/
+
+footer{
+    margin-top:200px ;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+}

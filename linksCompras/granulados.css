@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*ENCABEZADO*/
+header{
+    display: flex;
+    background:linear-gradient(rgb(255, 255, 255,0.9),rgb(255, 255, 255,0.9));
+    width: 100%;
+    align-items: center;
+    padding: auto;
+}
+
+.logo-encabezado{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 80%;
+margin: auto;
+
+}
+
+
+.texto-logo-encabezado{
+
+}
+.logo-encabezado i{
+    font-size: 40px;
+    color:greenyellow;
+}
+.abajo {
+    display: flex;
+    margin-right: 300px;
+
+}
+.abajo p{
+  
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.linkeame{
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+}
+.linkeame:hover{
+   color:green;
+   border-bottom: 1px solid lightgreen;
+   padding: 10px;
+   transition: .4s;
+}
+
+
+
+/*PRODUCTOS*/
+
+.comprar_producto{
+    display: flex;
+justify-content: center;
+}
+
+.contenedor_comprar-producto{
+text-align: center;
+margin-top: 50px;
+width: 80%;
+
+
+}
+.contenedor_comprar-producto h1{
+color: lightgreen;
+font-weight: bold;
+}
+
+.texto-comprarel-producto{
+    margin: auto;
+    margin-top: 60px;
+  
+    text-align: justify;
+  
+   
+}
+
+.img-comprar-productos{
+
+
+margin: auto;
+
+
+}
+
+
+.comtenedor-img-comprar-producto{
+display: flex;
+
+width: 80%;
+margin-top: 150px;
+
+}
+
+.img-comprar-productos{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+}
+
+
+.comtenedor-img-comprar-producto{
+    margin-top: 200px;
+}
+.img-comprar{
+
+margin: 10px;
+
+}
+
+
+.cont-texto{
+  
+    margin-top: 200px;
+}
+
+
+.img-texto-espesificaciones{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.caracteristicas-comprar{
+    text-align: justify;
+    margin-top: 100px;
+}
+
+.img-texto-espesificaciones p{
+    font-size: 28px;
+    color: brown;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.po{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.comprar_granulado-boton{
+text-align: center;
+margin-top: 100px;
+border: 1px solid black;
+padding: 10px;
+border-radius: 10px;
+background-color: gainsboro;
+opacity: .4;
+}
+
+
+.comprar_granulado-boton a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+.comprar_granulado-boton:hover{
+
+    background-color: gainsboro;
+    opacity: 1;
+    }
+
+
+    /*FOOTER*/
+
+footer{
+    margin-top:200px ;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+}

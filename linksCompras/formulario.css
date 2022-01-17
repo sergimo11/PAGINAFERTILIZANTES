@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*ENCABEZADO*/
+header{
+    display: flex;
+    background:linear-gradient(rgb(255, 255, 255,0.9),rgb(255, 255, 255,0.9));
+    width: 100%;
+    align-items: center;
+    padding: auto;
+}
+
+.logo-encabezado{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 80%;
+margin: auto;
+}
+
+
+.texto-logo-encabezado{
+
+}
+.logo-encabezado i{
+    font-size: 40px;
+    color:greenyellow;
+}
+.abajo {
+    display: flex;
+    margin-right: 300px;
+
+}
+.abajo p{
+  
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.linkeame{
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+}
+.linkeame:hover{
+   color:green;
+   border-bottom: 1px solid lightgreen;
+   padding: 10px;
+   transition: .4s;
+}
+
+
+.formulario{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: center;
+margin-top: 100px;
+background-color: rgb(255, 251, 251);
+
+}
+
+
+
+
+
+.nombre1 {
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+.nombre1 input{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    width:38%;
+}
+
+
+.nombre2{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.nombre2 input{
+    width: 100%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+
+.nombr3{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.nombr3 input{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.nombre4{
+    margin-top: 20px;
+}
+
+.nombre4 input{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    width:38%;
+}
+
+.nombr5{
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+.nombr5 input{
+width: 100%;
+margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.ap{
+    
+}
+
+
+
+
+
+
+
+.contenedo{
+    
+}
+
+.Pedido{
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+.nombre{
+
+    display: block;
+
+    margin-top: 20px;
+}
+
+
+.nombre label{
+    margin-top: 10px;
+}
+.nombre input{
+   display: block;
+   margin:20px auto;
+   margin-top: 10px;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+
+.botonA{
+    margin-top: 20px;
+    border-radius: 10px;
+    border :1px solid lightgreen;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    color: black;
+}
+
+
+.botonA a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    opacity: 0.4;
+}
+
+.botonA a:hover{
+    opacity: 1;
+    color: black;
+}
+.botonA:hover{
+    background-color:lightsteelblue;
+    transition: .4s;
+    color: black;
+    opacity: 1;
+}
